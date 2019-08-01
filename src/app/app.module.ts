@@ -19,6 +19,7 @@ import { ProjectlistComponent } from './projectlist/projectlist.component';
 import { ProjectdetailComponent } from './projectdetail/projectdetail.component';
 import { ProjectenrollComponent } from './projectenroll/projectenroll.component';
 import { ReadmoreComponent } from './readmore/readmore.component';
+import { FormtwoComponent } from './formtwo/formtwo.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ReadmoreComponent } from './readmore/readmore.component';
     ProjectlistComponent,
     ProjectdetailComponent,
     ProjectenrollComponent,
-    ReadmoreComponent
+    ReadmoreComponent,
+    FormtwoComponent
   ],
   imports: [
     BrowserModule,
