@@ -5,3 +5,24 @@
 .container {
     margin-top: 3%;
 }
+
+
+/* //////////////////////////////DropDown////////////////////// */
+
+
+/* CSS */
+
+.list,
+.element:hover {
+    transform: scale(1.1);
+    background-color: #17a2b8;
+}
+
+.element:hover {
+    border-radius: 30px;
+}
+
+.element {
+    background-color: #17a3b85b;
+    color: white;
+}
