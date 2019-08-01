@@ -15,7 +15,7 @@
 .list,
 .element:hover {
     transform: scale(1.1);
-    background-color: #17a2b8;
+    background-color: #797979;
 }
 
 .element:hover {
@@ -23,6 +23,6 @@
 }
 
 .element {
-    background-color: #17a3b85b;
+    background-color: #bbbbbbec;
     color: white;
 }

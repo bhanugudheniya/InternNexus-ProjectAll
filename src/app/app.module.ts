@@ -20,6 +20,8 @@ import { ProjectdetailComponent } from './projectdetail/projectdetail.component'
 import { ProjectenrollComponent } from './projectenroll/projectenroll.component';
 import { ReadmoreComponent } from './readmore/readmore.component';
 import { FormtwoComponent } from './formtwo/formtwo.component';
+import { ProjectprogressComponent } from './projectprogress/projectprogress.component';
+import {ProgressBarModule} from "angular-progress-bar";
 
 @NgModule({
   declarations: [
@@ -40,11 +42,13 @@ import { FormtwoComponent } from './formtwo/formtwo.component';
     ProjectdetailComponent,
     ProjectenrollComponent,
     ReadmoreComponent,
-    FormtwoComponent
+    FormtwoComponent,
+    ProjectprogressComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

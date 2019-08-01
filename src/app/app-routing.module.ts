@@ -16,6 +16,7 @@ import { ProjectdetailComponent } from './projectdetail/projectdetail.component'
 import { ProjectenrollComponent } from './projectenroll/projectenroll.component';
 import { ReadmoreComponent } from './readmore/readmore.component';
 import { FormtwoComponent } from './formtwo/formtwo.component';
+import { ProjectprogressComponent } from './projectprogress/projectprogress.component';
 
 
 const routes: Routes = [
@@ -34,7 +35,8 @@ const routes: Routes = [
   {path: 'projectdetail', component:ProjectdetailComponent},
   {path: 'projectenroll', component:ProjectenrollComponent },
   {path: 'readmore', component:ReadmoreComponent },
-  {path: 'formtwo',component:FormtwoComponent}
+  {path: 'formtwo',component:FormtwoComponent},
+  {path: 'projectprogress',component:ProjectprogressComponent}
 
 ];
 
