@@ -18,6 +18,7 @@ import { LogoutComponent } from './logout/logout.component';
 import { ProjectlistComponent } from './projectlist/projectlist.component';
 import { ProjectdetailComponent } from './projectdetail/projectdetail.component';
 import { ProjectenrollComponent } from './projectenroll/projectenroll.component';
+import { ReadmoreComponent } from './readmore/readmore.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProjectenrollComponent } from './projectenroll/projectenroll.component'
     LogoutComponent,
     ProjectlistComponent,
     ProjectdetailComponent,
-    ProjectenrollComponent
+    ProjectenrollComponent,
+    ReadmoreComponent
   ],
   imports: [
     BrowserModule,

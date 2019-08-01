@@ -14,6 +14,7 @@ import { LogoutComponent } from './logout/logout.component';
 import { ProjectlistComponent } from './projectlist/projectlist.component';
 import { ProjectdetailComponent } from './projectdetail/projectdetail.component';
 import { ProjectenrollComponent } from './projectenroll/projectenroll.component';
+import { ReadmoreComponent } from './readmore/readmore.component';
 const routes: Routes = [
   {path:'',component:DashboardComponent},
   {path:'events',component:EventsComponent},
@@ -28,7 +29,8 @@ const routes: Routes = [
   {path: 'logout', component:LogoutComponent},
   {path: 'projectlist', component:ProjectlistComponent},
   {path: 'projectdetail', component:ProjectdetailComponent},
-  {path: 'projectenroll', component:ProjectenrollComponent }
+  {path: 'projectenroll', component:ProjectenrollComponent },
+  {path: 'readmore', component:ReadmoreComponent }
 
 ];
 
