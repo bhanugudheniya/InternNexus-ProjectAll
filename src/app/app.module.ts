@@ -22,6 +22,8 @@ import { ReadmoreComponent } from './readmore/readmore.component';
 import { FormtwoComponent } from './formtwo/formtwo.component';
 import { ProjectprogressComponent } from './projectprogress/projectprogress.component';
 import {ProgressBarModule} from "angular-progress-bar";
+import { ProjectdetailsProjectListComponent } from './projectdetails-project-list/projectdetails-project-list.component';
+import { ProjectdetailswithlistComponent } from './projectdetailswithlist/projectdetailswithlist.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import {ProgressBarModule} from "angular-progress-bar";
     ProjectenrollComponent,
     ReadmoreComponent,
     FormtwoComponent,
-    ProjectprogressComponent
+    ProjectprogressComponent,
+    ProjectdetailsProjectListComponent,
+    ProjectdetailswithlistComponent
   ],
   imports: [
     BrowserModule,

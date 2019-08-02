@@ -91,18 +91,3 @@ input[type="checkbox"]:checked+label:before {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
-
-/* .mainp {
-    background-image: linear-gradient(to right top, #949494, #9a9a9a, #a1a1a1, #a7a7a7, #aeaeae, #afafaf, #afafaf, #b0b0b0, #ababab, #a5a5a5, #a0a0a0, #9b9b9b);
-} */
-
-#task {
-    /* color: black; */
-    font-size: 1em;
-}
-
-.b {
-    background-color: black;
-    color: black;
-}
